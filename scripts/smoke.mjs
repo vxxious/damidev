@@ -40,11 +40,11 @@ assert.match(homeHtml, /name="email"/, 'Contact form should ask for an email')
 assert.match(homeHtml, /name="message"/, 'Contact form should ask for a message')
 assert.match(homeHtml, /id="contact-message"[^>]*rows="4"/, 'Message field should use the compact height')
 assert.equal((articlesHtml.match(/class="article-row"/g) || []).length, 5, 'Articles should list all five published pieces')
-assert.equal((projectsHtml.match(/class="project-card"/g) || []).length, 12, 'Projects should show all twelve projects')
-for (const title of ['CRUUD', 'Tensfer website', 'Metaversus', 'ArtificialX', 'CryptoWorld', 'MyKrypt', 'Realtor']) {
-  assert.match(projectsHtml, new RegExp(title), `Projects should include ${title} from the previous portfolio`)
+assert.equal((projectsHtml.match(/class="project-card"/g) || []).length, 5, 'Projects should show the five live projects')
+for (const title of ['OurBank', 'Metaversus', 'CryptoWorld', 'MyKrypt', 'Realtor']) {
+  assert.match(projectsHtml, new RegExp(title), `Projects should include ${title}`)
 }
-assert.match(projectsHtml, /D(?:&#x27;|')Lord Maseli/, 'Projects should include D\'Lord Maseli')
+assert.doesNotMatch(projectsHtml, /Project link unavailable/, 'Projects should all have live links')
 assert.doesNotMatch(projectsHtml, /cruud\.com|dlordmaseli\.org|tensfer-website\.onrender\.com|artificialx\.vercel\.app/, 'Projects should not link to unavailable legacy sites')
 assert.doesNotMatch(projectsHtml, /href="\/work\//, 'Projects should not link to case-study pages')
 assert.equal((aboutHtml.match(/class="skill-icon"/g) || []).length, 18, 'About should show 18 brand icons')

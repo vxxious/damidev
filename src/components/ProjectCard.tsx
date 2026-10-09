@@ -15,7 +15,6 @@ export function ProjectCard({ project, index }: { project: Project; index: numbe
         </ul>
       </div>
       <div className="project-card-footer">
-        {project.links.length === 0 && <span className="project-card-unavailable">Project link unavailable</span>}
         {project.links.map((link, linkIndex) => (
           <a
             aria-label={`${project.title}: ${link.label}`}

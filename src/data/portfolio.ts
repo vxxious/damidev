@@ -12,89 +12,6 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    slug: "knowledge-base-system",
-    title: "Knowledge Base System",
-    discipline: "Backend · Document AI",
-    summary: "An API that turns uploaded PDFs into summaries and lets people ask questions about their documents.",
-    introduction:
-      "This project brings document upload, generated insights, and question answering into one backend service. It stores document metadata and generated content in PostgreSQL.",
-    scope: "NestJS API, document handling, Gemini integration, and database persistence.",
-    stack: ["TypeScript", "NestJS", "Prisma", "PostgreSQL", "Supabase", "Gemini", "Docker"],
-    details: [
-      {
-        heading: "Document flow",
-        body: "The API accepts PDF uploads, extracts content, and returns a generated summary or key insights. A separate query path answers questions against stored documents.",
-      },
-      {
-        heading: "Data and structure",
-        body: "Document, Gemini, and database modules keep the API organized. Prisma models and migrations manage the PostgreSQL data stored on Supabase.",
-      },
-      {
-        heading: "Run locally",
-        body: "The repository includes Docker Compose, a Dockerfile, and API documentation for exercising the upload and query flows.",
-      },
-    ],
-    links: [
-      { label: "GitHub repository", href: "https://github.com/damilola1ade/knowledge-base-system" },
-    ],
-  },
-  {
-    slug: "yardzen",
-    title: "Yardzen",
-    discipline: "Full-stack · Web application",
-    summary: "A Next.js application and Express service built around account and dashboard flows.",
-    introduction:
-      "Yardzen pairs a Next.js frontend with a separate Node.js backend. The repositories show the application UI, API integration, authentication flows, and database work together.",
-    scope: "Next.js application, Express backend, and MongoDB data layer.",
-    stack: ["Next.js", "React", "TypeScript", "Express", "Prisma", "MongoDB", "Tailwind CSS"],
-    details: [
-      {
-        heading: "Application interface",
-        body: "The frontend uses the Next.js App Router for its public, account, and dashboard routes, with shared state and API access kept in separate modules.",
-      },
-      {
-        heading: "Backend service",
-        body: "The paired Express repository contains the server, Prisma schema, password handling, and image-upload dependencies.",
-      },
-      {
-        heading: "Application boundaries",
-        body: "Separate repositories make the frontend and backend responsibilities visible, from route composition and API access to persistence and uploads.",
-      },
-    ],
-    links: [
-      { label: "Frontend repository", href: "https://github.com/damilola1ade/yardzen" },
-      { label: "Backend repository", href: "https://github.com/damilola1ade/yardzen-backend" },
-    ],
-  },
-  {
-    slug: "hotel-ranking",
-    title: "Hotel Ranking",
-    discipline: "Full-stack · Data application",
-    summary: "An authenticated hotel and brand interface backed by an Express API and PostgreSQL data.",
-    introduction:
-      "The project has separate React and Express repositories. Together they cover the UI, hotel and brand routes, authentication, and data persistence.",
-    scope: "React frontend, Express API, authentication, and PostgreSQL models.",
-    stack: ["React", "TypeScript", "Express", "Prisma", "PostgreSQL", "Supabase", "Fly.io"],
-    details: [
-      {
-        heading: "Frontend and API",
-        body: "The interface separates API calls for hotels and brands from its UI components. The backend organizes those resources into routes and controllers.",
-      },
-      {
-        heading: "Accounts and data",
-        body: "The project documentation describes authentication and role-based access. Prisma migrations record the PostgreSQL schema changes.",
-      },
-      {
-        heading: "Delivery",
-        body: "The backend repository includes a Fly.io deployment workflow, while the frontend is a Vite and TypeScript application.",
-      },
-    ],
-    links: [
-      { label: "Frontend repository", href: "https://github.com/damilola1ade/hotel-ranking" },
-      { label: "Backend repository", href: "https://github.com/damilola1ade/hotel-backend" },
-    ],
-  },
-  {
     slug: "ourbank",
     title: "OurBank",
     discipline: "Product interface · Web and mobile",
@@ -124,33 +41,6 @@ export const projects: Project[] = [
     ],
   },
   {
-    slug: "cruud",
-    title: "CRUUD",
-    discipline: "Earlier work · Agency website",
-    summary: "A website for a technical talent sourcing concept focused on African markets.",
-    scope: "Next.js, NestJS, and PostgreSQL work listed on the previous portfolio.",
-    stack: ["Next.js", "NestJS", "PostgreSQL", "AWS"],
-    links: [],
-  },
-  {
-    slug: "dlord-maseli",
-    title: "D'Lord Maseli",
-    discipline: "Earlier work · Property website",
-    summary: "A real estate site for browsing residential and commercial properties to buy or rent.",
-    scope: "TypeScript interface using Chakra UI, Redux Toolkit Query, and Strapi.",
-    stack: ["TypeScript", "Chakra UI", "Redux Toolkit Query", "Strapi"],
-    links: [],
-  },
-  {
-    slug: "tensfer-website",
-    title: "Tensfer website",
-    discipline: "Earlier work · Company website",
-    summary: "A website for a crypto payments and exchange aggregation concept.",
-    scope: "Next.js and TypeScript interface with React Query, Strapi, and Node.js.",
-    stack: ["Next.js", "TypeScript", "React Query", "Strapi", "Node.js"],
-    links: [],
-  },
-  {
     slug: "metaversus",
     title: "Metaversus",
     discipline: "Earlier work · Landing page",
@@ -160,17 +50,6 @@ export const projects: Project[] = [
     links: [
       { label: "Live site", href: "https://metaverse1.netlify.app/" },
       { label: "GitHub repository", href: "https://github.com/damilola1ade/metaversus" },
-    ],
-  },
-  {
-    slug: "artificialx",
-    title: "ArtificialX",
-    discipline: "Earlier work · Landing page",
-    summary: "A responsive technology landing page.",
-    scope: "React and SCSS implementation shown on the previous portfolio.",
-    stack: ["React", "SCSS"],
-    links: [
-      { label: "GitHub repository", href: "https://github.com/damilola1ade/ArtificialX" },
     ],
   },
   {

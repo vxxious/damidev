@@ -166,7 +166,6 @@ em { font-style: normal; }
 .project-card-stack { display: flex; flex-wrap: wrap; gap: 8px; padding: 0; margin: 24px 0 32px; list-style: none; }
 .project-card-stack li { padding: 5px 11px; border: 1px solid var(--line-soft); border-radius: 4px; color: var(--muted-strong); font-size: .78rem; font-weight: 600; }
 .project-card-footer { display: flex; flex-wrap: wrap; gap: 10px; padding-top: 22px; border-top: 1px solid var(--line-soft); }
-.project-card-unavailable { color: var(--muted); font-size: .875rem; }
 .project-card-action { display: inline-flex; flex: 1 1 150px; align-items: center; justify-content: space-between; gap: 14px; min-height: 46px; padding: 10px 16px; border: 1px solid var(--line-soft); border-radius: 4px; font-size: .875rem; font-weight: 650; line-height: 1.25; transition: background .2s ease, border-color .2s ease, transform 160ms var(--ease-out); }
 .project-card-action:hover { background: var(--accent-soft-hover); border-color: var(--accent); }
 .project-card-action-primary { background: var(--ink); border-color: var(--ink); color: var(--page); }
