@@ -63,7 +63,7 @@ function NotFound() {
       <p>That address doesn’t match a page on this site. You can head home or browse the projects.</p>
       <div className="not-found-actions">
         <Link className="hero-action hero-action-primary" to="/">Back home <ArrowIcon /></Link>
-        <Link className="hero-action" to="/projects">View projects <ArrowIcon /></Link>
+        <a className="hero-action" href="/#projects">View projects <ArrowIcon /></a>
       </div>
     </main>
   )

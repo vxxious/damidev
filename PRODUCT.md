@@ -24,7 +24,7 @@ Dami is a Full-Stack Engineer. Public work shows React and Next.js interfaces, N
 
 ## Capabilities and Constraints
 
-This is a standalone multi-page portfolio. Use verified public project details and the experience roles and dates already approved by the user. Do not invent employers, clients, metrics, qualifications, outcomes, location, or years of experience.
+This is a standalone one-page portfolio. Use verified public project details and the supplied CV for work history. Do not invent employers, clients, metrics, qualifications, outcomes, location, or years of experience.
 
 ## Brand Commitments
 
@@ -32,7 +32,7 @@ Public name: Dami. Contact: damiiyi@gmail.com, https://github.com/damilola1ade, 
 
 ## Evidence on Hand
 
-The legacy portfolio and public GitHub profile at https://github.com/damilola1ade were researched previously. The Projects page includes all nine projects published on the old portfolio, alongside three additional recent repository projects. Freelance, Tensfer, and Revolut roles and dates were approved for reuse. The user confirmed County Dublin, Ireland and “Open to work” for the homepage profile. Education and private client work remain unverified.
+The legacy portfolio and public GitHub profile at https://github.com/damilola1ade were researched previously. The Projects section contains the five projects with available live sites. The supplied CV supports Playfull, Tensfer, Revolut, and BuyPower work history. The user confirmed County Dublin, Ireland and “Open to work” for the homepage profile.
 
 ## Product Principles
 

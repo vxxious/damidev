@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react'
-import { useRouterState } from '@tanstack/react-router'
 import { animate } from 'framer-motion/dom/mini'
 import { hover, inView } from 'framer-motion/dom'
 import Lenis from 'lenis'
@@ -8,14 +7,11 @@ const entrance = [0.23, 1, 0.32, 1] as const
 const revealTargets = [
   '.hero-copy', '.hero-portrait',
   '.section-title', '.section-lead', '.project-card', '.article-row',
-  '.page-intro h1', '.projects-intro h1',
   '.about-columns', '.skill-mark', '.experience-row',
-  '.contact-page h1', '.contact-links', '.home-contact-intro h2', '.home-contact-form',
+  '.contact-links', '.home-contact-intro h2', '.home-contact-form',
 ].join(', ')
 
 export function SiteMotion() {
-  const pathname = useRouterState({ select: (state) => state.location.pathname })
-  const isLoading = useRouterState({ select: (state) => state.isLoading })
   const [hydrating, setHydrating] = useState(true)
 
   useEffect(() => setHydrating(false), [])
@@ -69,9 +65,9 @@ export function SiteMotion() {
         element.style.removeProperty('transform')
       })
     }
-  }, [pathname])
+  }, [])
 
-  return isLoading || hydrating ? (
+  return hydrating ? (
     <div aria-live="polite" className="navigation-loading" role="status">
       <span aria-hidden="true" className="navigation-spinner" />
       Loading page

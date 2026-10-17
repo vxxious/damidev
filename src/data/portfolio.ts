@@ -92,22 +92,28 @@ export const projects: Project[] = [
 
 export const experience = [
   {
-    company: "Freelance",
-    title: "Full-Stack Engineer",
-    period: "2020 to present",
-    description: "Independent web application work across interface and backend development.",
+    company: "Playfull",
+    title: "Frontend Engineer",
+    period: "Feb 2025 to present",
+    description: "Building product interfaces and integrations across the website, game pass, and commerce experiences.",
   },
   {
     company: "Tensfer",
-    title: "Lead Software Engineer",
-    period: "2022 to 2024",
-    description: "Worked on the dashboard, an account integration widget, API documentation, and the company website.",
+    title: "Software Engineer",
+    period: "Dec 2022 to Jul 2024",
+    description: "Built dashboard and integration features, worked on payments, and maintained the website and API documentation.",
   },
   {
     company: "Revolut",
     title: "Junior Software Engineer",
-    period: "2020 to 2021",
-    description: "Worked on web interfaces, testing, and REST API implementation.",
+    period: "Jul 2020 to Jul 2021",
+    description: "Worked on React interfaces, testing, and REST API support.",
+  },
+  {
+    company: "BuyPower",
+    title: "Junior Frontend Engineer",
+    period: "Sep 2019 to Mar 2020",
+    description: "Built React components and hooks for customer-facing interfaces.",
   },
 ];
 
