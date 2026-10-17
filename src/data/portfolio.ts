@@ -95,25 +95,25 @@ export const experience = [
     company: "Playfull",
     title: "Frontend Engineer",
     period: "Feb 2025 to present",
-    description: "Building product interfaces and integrations across the website, game pass, and commerce experiences.",
+    description: "Led the website rebrand from Earn Alliance to Playfull and helped build the Avalanche and Pudgy Battle Pass experiences. Worked on a scheduled Steam catalogue crawler and the TikTok Shop API, collaborating with backend and product teams through reviews and delivery.",
   },
   {
     company: "Tensfer",
     title: "Software Engineer",
     period: "Dec 2022 to Jul 2024",
-    description: "Built dashboard and integration features, worked on payments, and maintained the website and API documentation.",
+    description: "Built a dashboard integration widget that brought customer balances and transactions from an external app into one portfolio. Contributed to the crypto payment system, developed the company website, API documentation and blog, and implemented logging and monitoring for application performance.",
   },
   {
     company: "Revolut",
     title: "Junior Software Engineer",
     period: "Jul 2020 to Jul 2021",
-    description: "Worked on React interfaces, testing, and REST API support.",
+    description: "Translated product designs into interfaces and helped migrate the website from Laravel to React. Supported senior engineers with REST APIs, tested changes, and participated in group code reviews to keep the experience reliable.",
   },
   {
     company: "BuyPower",
     title: "Junior Frontend Engineer",
     period: "Sep 2019 to Mar 2020",
-    description: "Built React components and hooks for customer-facing interfaces.",
+    description: "Developed React skills through functional components and hooks, including useState and useEffect. Took part in collaborative learning exercises and built small applications such as a to-do list and calculator.",
   },
 ];
 
